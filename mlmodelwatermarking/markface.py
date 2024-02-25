@@ -11,7 +11,10 @@ from transformers import (AdamW, BertForSequenceClassification, BertTokenizer,
 
 from mlmodelwatermarking.loggers.logger import logger
 from mlmodelwatermarking.verification import verify
+"""
+Valid - AI integration for marking base trainer class through huggingface
 
+"""
 
 class Trainer:
 

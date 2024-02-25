@@ -1,7 +1,12 @@
 from math import floor, sqrt
 
 from scipy.special import comb
+import numpy
+import torch
 
+"""
+Integration of verification module for deployment of Valid-AI network
+"""
 
 def threshold_classifier(trigger_size, number_labels, error_rate=0.001):
     """Compute threshold for classification task.
